@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment Upload</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body style="background-color:azure;">
+    <header>
+        <ul id="menu">
+
+
+
+            <li>
+                <a href="syllabus.html">Syllabus</a>
+            </li>
+            <li>
+                <a href="practical.html">Practical</a>
+            </li>
+
+
+            <li>
+                <a href="timetable.html">Timetable</a>
+            </li>
+            <li>
+                <a href="result.html">Result</a>
+            </li>
+            <li>
+
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Assignment
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="aupload.html">Assignment upload</a>
+                        <a class="dropdown-item" href="adownload.html">Assignment download</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <div style="margin-top:10%;background-color:white;margin-left:30%;margin-right:30%;">
+        <h3 style="text-align:center;">Upload file</h3>
+        <form>
+            <div class="form-group" style="margin-left:30%;">
+
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+        </form>
+        <select name="" id="" size="1" style="margin-left:30%;">
+            <option value="none">Select Course</option>
+            <option value="1">PHY 119</option>
+            <option value="2">CSE 202</option>
+            <option value="3">ECE 213</option>
+            <option value="4">ECE 216</option>
+            <option value="5">MEC 103</option>
+            <option value="6">MTH 166</option>
+        </select>
+        <button style="margin-left:3px;" type="button" class="btn btn-secondary btn-sm">Upload</button>
+    </div>
+
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
